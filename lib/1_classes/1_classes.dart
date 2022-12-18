@@ -15,7 +15,10 @@ void main() {
   camisetaJordan.gola = 'O';
   camisetaJordan.manga = 'Longa';
 
+  print(Camiseta.recuperaNome());
+
   print('''
+
     Camiseta Nike:
       Tamanho: ${camisetaNike.tamanho}
       Cor: ${camisetaNike.cor}
